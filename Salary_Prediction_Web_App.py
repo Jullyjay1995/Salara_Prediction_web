@@ -26,7 +26,7 @@ def salary_prediction(input_data):
 
 def main():
     # display image
-    img = Image.open("salary.jpeg")
+    img = Image.open("Salary_.jpeg")
     new_image = img.resize((700, 200))
     st.image(new_image)
     # let's display
